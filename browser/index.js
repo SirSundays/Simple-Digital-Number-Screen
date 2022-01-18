@@ -21,13 +21,11 @@ $(function () {
         showTime();
     }, 1000 * 60);
 
-    window.api.receive('new-number', (data) => {
-        console.log(data);
+    window.api.receive( "new-number", (data) => {
         let displayNumber = data.displayNumber.toString().padStart(4, '0');
-        console.log(displayNumber);
         for (var i = 0; i < displayNumber.length; i++) {
             $("#splitFlapCanvas").fallBlatt("display", {
-                pos: [4 + i, 1],
+                pos: [3 + i, 1],
                 content: displayNumber[i]
             });
         }
