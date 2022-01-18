@@ -1,0 +1,14 @@
+{
+  "name": "simple-digital-number-screen",
+  "version": "1.0.0",
+  "description": "Displays a numer send over the API. Nothing too crazy.",
+  "main": "index.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "author": "SirSundays",
+  "license": "MIT",
+  "devDependencies": {
+    "electron": "^16.0.7"
+  }
+}
