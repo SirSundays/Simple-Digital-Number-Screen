@@ -2,18 +2,30 @@
 <html>
 
 <head>
-    <meta charset="UTF-8">
-    <!-- https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP -->
-    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'">
-    <meta http-equiv="X-Content-Security-Policy" content="default-src 'self'; script-src 'self'">
-    <title>Hello World!</title>
+    <meta charset="utf-8">
+    <link href="css/fallblatt.css" type="text/css" rel="stylesheet">
+    <script src="src/jquery-3.5.1.min.js"></script>
+    <script src="src/fallblatt.js"></script>
+    <style type="text/css">
+        body,
+        html {
+            padding: 0;
+            margin: 0;
+            background-color: #303030;
+            overflow: hidden;
+            width: 100%;
+            height: 100%;
+        }
+    </style>
 </head>
 
 <body>
-    <h1>Hello World!</h1>
-    We are using Node.js <span id="node-version"></span>,
-    Chromium <span id="chrome-version"></span>,
-    and Electron <span id="electron-version"></span>.
+    <div style="width:100%;height:100%">
+        <div id="splitFlapCanvas"></div>
+    </div>
+
+    <script type="text/javascript" src="./index.js">
+    </script>
 </body>
 
 </html>
