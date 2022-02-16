@@ -5,6 +5,9 @@ $(function () {
         flapScale: 2
     });
 
+    const hideCursor = true;
+    const activateTime = false;
+
     function showTime() {
         let date = new Date();
         let time = `${date.getHours().toString().padStart(2, '0')}:${date.getMinutes().toString().padStart(2, '0')}`;
@@ -16,12 +19,21 @@ $(function () {
         }
     }
 
-    showTime();
-    setInterval(function () {
+    if (activateTime) {
         showTime();
-    }, 1000 * 60);
+        setInterval(function () {
+            showTime();
+        }, 1000 * 60);
+    }
 
-    window.api.receive( "new-number", (data) => {
+    if (hideCursor) {
+        function hideCursor(){
+            document.body.style.cursor = "none"; 
+        }
+        setTimeout(hideCursor,1000);       
+    }
+
+    window.api.receive("new-number", (data) => {
         let displayNumber = data.displayNumber.toString().padStart(4, '0');
         for (var i = 0; i < displayNumber.length; i++) {
             $("#splitFlapCanvas").fallBlatt("display", {

@@ -24,6 +24,15 @@ const createWindow = () => {
     });
 
     mainWindow.loadFile('./browser/index.html');
+    // This application is designed for 1080p screens.
+    // It will work on other display sizes but is not optimized for it.
+    // Numbers will not be centered.
+    mainWindow.setKiosk(true);
+
+    mainWindow.webContents.on('crashed', (e) => {
+        app.relaunch();
+        app.quit()
+    });
 
     const printNumber = () => {
         mainWindow.webContents.send(
