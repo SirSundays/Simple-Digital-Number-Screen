@@ -10,7 +10,7 @@ A screen hangs somewhere prominent in a room. It has some sort of small computer
 
 [![InAction](https://github.com/SirSundays/Simple-Digital-Number-Screen/blob/main/media/InAction.gif?raw=true "InAction")](https://github.com/SirSundays/Simple-Digital-Number-Screen/blob/main/media/InAction.gif?raw=true "InAction")
 
-The GIF shows not the latest version. The clock is disabled by default and I removed some all the letters so the splitflap is only going through all the numbers.
+The GIF shows not the latest version. The clock is disabled by default and I removed all the letters so the splitflap is only going through all the numbers.
 
 ### Screen
 
