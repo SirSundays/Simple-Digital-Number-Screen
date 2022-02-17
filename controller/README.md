@@ -12,7 +12,7 @@ I used this components:
 
 Here you can see the schematic on a breadboard. Not hard. If it fits you can plug in the LiPo directly into the feather without the need of the BAT-Pin.
 
-// Picture Schematic
+[![ControllerBreadboard](https://raw.githubusercontent.com/SirSundays/Simple-Digital-Number-Screen/main/media/ControllerBreadboard.png "ControllerBreadboard")](https://raw.githubusercontent.com/SirSundays/Simple-Digital-Number-Screen/main/media/ControllerBreadboard.png "ControllerBreadboard")
 
 ## Software / Firmware
 
@@ -23,3 +23,5 @@ The firmware for the feather can be found in the `Controller`-Folder. It can be 
 Right now the interface is in german, but there are only two words to translate that should be doable (Nächste  -> Next | Aktuell -> Current).
 
 The ESP8266 will first try to connect to the WiFi of the Raspberry. The SSID and Password can be changed in code. While connecting a blinking dot is displayed on the display. After connecting it will get the currently displayed number from the Node.js server. You can then set the next number with the rotary encoder either by rotating until you get to the desired number or incrementing one by a short press. To send the new number you have to long press the button for atleast half a second. If you let go of the button the new number will be send to the server. While doing so the controller display reacts accordingly. The minimum number to be displayed is 0 and the max number is 9999.
+
+[![ControllerDisplay02](https://raw.githubusercontent.com/SirSundays/Simple-Digital-Number-Screen/main/media/ControllerDisplay02.jpg "ControllerDisplay02")](https://raw.githubusercontent.com/SirSundays/Simple-Digital-Number-Screen/main/media/ControllerDisplay02.jpg "ControllerDisplay02")

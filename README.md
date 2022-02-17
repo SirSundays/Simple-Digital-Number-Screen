@@ -8,6 +8,9 @@ A screen hangs somewhere prominent in a room. It has some sort of small computer
 
 ## Solution
 
+[![InAction](https://github.com/SirSundays/Simple-Digital-Number-Screen/blob/main/media/InAction.gif?raw=true "InAction")](https://github.com/SirSundays/Simple-Digital-Number-Screen/blob/main/media/InAction.gif?raw=true "InAction")
+The GIF shows not the latest version. The clock is disabled by default and I removed some all the letters so the splitflap is only going through all the numbers.
+
 ### Screen
 
 I choose a 27 inch 1080p monitor that was under 200€. The only things really from interest where the size and good viewing angles.
@@ -20,14 +23,14 @@ It also runs the [RaspAP](https://raspap.com/ "RaspAP") software. Which makes th
 ### Number display software
 
 I choose to write my own little software for that. More information can be found here:
-[Link to the Readme](http://github.com "Link to the Readme")
+[Link to the Readme](https://github.com/SirSundays/Simple-Digital-Number-Screen/tree/main/frontend%2Bserver "Link to the Readme")
 The software is autostarted by the Raspberry. This article by Lucas Vogel helped with some best practices:
 https://lucas-vogel.de/blog/perfect-electron/
 
 ### Controller
 
 The controller consist of a ESP8266 with battery, a rotary encoder and a small display. All together in a 3d-printed housing. More information can be found here:
-[Link to the Readme](http://github.com "Link to the Readme")
+[Link to the Readme](https://github.com/SirSundays/Simple-Digital-Number-Screen/tree/main/controller "Link to the Readme")
 
 ## Background
 

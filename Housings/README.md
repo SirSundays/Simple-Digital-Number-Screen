@@ -27,3 +27,5 @@ My assembly process:
 1.  Pushed the lit on. It is easier when the hook up wires are a bit shorter to be honest.
 
 Is this ideal? No! This is just something so you can use it without some bare components in your hands. This can definitly done better.
+
+[![Housings](https://raw.githubusercontent.com/SirSundays/Simple-Digital-Number-Screen/main/media/Housings.jpg "Housings")](https://raw.githubusercontent.com/SirSundays/Simple-Digital-Number-Screen/main/media/Housings.jpg "Housings")

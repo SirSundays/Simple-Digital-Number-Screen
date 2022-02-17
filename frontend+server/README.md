@@ -21,6 +21,8 @@ In the index.js two options are present:
 
 `activateTime` is turned off by default because the used Raspberry Pi Zero 2 cannot keep track of the when it is turned of. This is because of the lack of a RTC. If you would connect it to a internet connected network it would get the actual time by calling an NTP Server. Because I´m using the Raspberry as a Hotspot I´m not able to utilize this.
 
+[![ControllerDisplay01](https://raw.githubusercontent.com/SirSundays/Simple-Digital-Number-Screen/main/media/ControllerDisplay01.jpg "ControllerDisplay01")](https://raw.githubusercontent.com/SirSundays/Simple-Digital-Number-Screen/main/media/ControllerDisplay01.jpg "ControllerDisplay01")
+
 ### Getting Started
 
 1.  Go into the `frontend+server`-folder
