@@ -9,6 +9,7 @@ A screen hangs somewhere prominent in a room. It has some sort of small computer
 ## Solution
 
 [![InAction](https://github.com/SirSundays/Simple-Digital-Number-Screen/blob/main/media/InAction.gif?raw=true "InAction")](https://github.com/SirSundays/Simple-Digital-Number-Screen/blob/main/media/InAction.gif?raw=true "InAction")
+
 The GIF shows not the latest version. The clock is disabled by default and I removed some all the letters so the splitflap is only going through all the numbers.
 
 ### Screen
@@ -34,7 +35,7 @@ The controller consist of a ESP8266 with battery, a rotary encoder and a small d
 
 ## Background
 
-This project was a short 2 day project for me. My professor got some money for this a couple of years ago but no one every started this small project. I had some flexible time now and then so I just started working on it.  I liked to use skills of every tech area, this is really a Full Stack Project:
+This project was a short 2 day project for me. My professor got some money for this a couple of years ago but no one ever started this small project. I had some flex time now and so I just started working on it.  I liked to use skills of every tech area, this is really a Full Stack Project:
 - Frontend Programming (JavaScript / HTML)
 - Server Programming (Node.js)
 - Server Administration (Autostart + RaspAP)
